@@ -23,39 +23,73 @@ img {
   vertical-align: bottom;
 }
 
+section {
+  margin-top: 96px;
+}
+
+.header-area {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
 .container {
-  width: 1296px;
+  max-width: 1296px;
   margin: 0 auto;
+}
+
+.contact-number-area {
+  display: flex;
+  margin-top: 24px;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.contact-number-icon, .email-icon {
+  margin-right: 22px;
+  color: #fff;
+}
+
+.email-area {
+  display: flex;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.footer-bottom-menus {
+  width: 174px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.logo-new {
+  width: 80px;
+  height: 49px;
 }
 
 .menus {
   display: flex;
   flex-wrap: wrap;
   width: 512px;
+  margin-left: auto;
+}
+
+.menu {
+  width: 80px;
+  margin-right: 64px;
+}
+
+.menu:last-child {
+  margin-right: 0;
 }
 
 .align-items-center {
   align-items: center;
 }
 
-.border-start {
-  border-left: 1px solid #dee2e6;
-}
-
-.border-5 {
-  border-width: 5px;
-}
-
-.border-red {
-  border-color: red;
-}
-
 .d-flex {
   display: flex;
-}
-
-.font-size-14 {
-  font-size: 14px;
 }
 
 .font-size-16 {
@@ -66,28 +100,20 @@ img {
   font-size: 20px;
 }
 
-.font-size-24 {
-  font-size: 24px;
+.footer-bottom {
+  display: flex;
+  margin-top: 32px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
 }
 
-.font-size-36 {
-  font-size: 36px;
-}
-
-.font-size-48 {
-  font-size: 48px;
+.footer-menu {
+  display: block;
 }
 
 .fw-bold {
   font-weight: 700;
-}
-
-.justify-content-between {
-  justify-content: space-between;
-}
-
-.line-height-21 {
-  line-height: 21px;
 }
 
 .line-height-24 {
@@ -98,18 +124,6 @@ img {
   line-height: 30px;
 }
 
-.line-height-36 {
-  line-height: 36px;
-}
-
-.line-height-54 {
-  line-height: 54px;
-}
-
-.line-height-72 {
-  line-height: 72px;
-}
-
 .me-auto {
   margin-left: auto;
 }
@@ -118,24 +132,8 @@ img {
   margin-top: 8px;
 }
 
-.mt-24 {
-  margin-top: 24px;
-}
-
 .mt-32 {
   margin-top: 32px;
-}
-
-.mt-40 {
-  margin-top: 40px;
-}
-
-.mt-96 {
-  margin-top: 96px;
-}
-
-.ms-22 {
-  margin-right: 22px;
 }
 
 .ms-32 {
@@ -146,12 +144,29 @@ img {
   margin-right: 40px;
 }
 
-.ms-64 {
-  margin-right: 64px;
+.section-title {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 700;
+  padding-left: 16px;
+  border-left: 1px solid #dee2e6;
+  border-color: red;
+  border-width: 5px;
 }
 
-.pe-16 {
-  padding-left: 16px;
+.section-question-title {
+  margin-top: 32px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.section-question {
+  margin-top: 32px;
+}
+
+.section-question-first-child {
+  margin-top: 24px;
 }
 
 .text-white {
@@ -162,22 +177,101 @@ img {
   width: 64px;
 }
 
-.w-80 {
-  width: 80px;
-}
-
-.w-174 {
-  width: 174px;
-}
-
 .h-48 {
   height: 48px;
 }
 
-.h-49 {
-  height: 49px;
+@media(max-width: 1296px) {
+  .container {
+    margin-left: 36px;
+    margin-right: 36px;
+  }
 }
 
-.h-80 {
-  height: 80px;
+@media(max-width: 768px){
+  section {
+    margin-top: 80px;
+  }
+
+  .container {
+    max-width: 696px;
+  }
+}
+
+@media(max-width: 696px){
+  .header-area {
+    height: auto;
+  }
+  
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+  }
+
+  .container {
+    margin: 0 13px;
+  }
+
+  .container.header-area {
+    display: block;
+    margin: 0;
+    padding-top: 8px;
+  }
+
+  .contact-number-area {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 0;
+  }
+  
+  .email-area {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .footer-bottom {
+    display: block;
+  }
+
+  .footer-bottom-menus {
+    width: auto;
+    display: block;
+  }
+  
+  .footer-menu {
+    display: none;
+  }
+
+  .logo-new {
+    width: 80px;
+    height: 49px;
+    margin: 16px auto 11px 15px;
+  }
+
+  .menus {
+    width: auto;
+  }
+
+  .menu {
+    width: 50%;
+    height: 48px;
+    line-height: 48px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+  }
+
+}
+
+@media(max-width: 499px){
+  .contact-number-area {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .email-area {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
