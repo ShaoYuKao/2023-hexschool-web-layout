@@ -1,0 +1,161 @@
+body {
+  font-family: 'Castoro', serif;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.mt-13 {
+  margin-top: 13px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+/* .mt-128 {
+  margin-top: 128px;
+} */
+
+.mt-214 {
+  margin-top: 214px;
+}
+
+.ms-40 {
+  margin-left: 40px;
+}
+
+.pt-48 {
+  padding-top: 48px;
+}
+
+.pt-160 {
+  padding-top: 160px;
+}
+
+.pe-34 {
+  padding-right: 34px;
+}
+
+.box-sizing-border {
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.content {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+h1.title {
+  width: 370px;
+  height: 192px;
+  font-size: 128px;
+  font-weight: 400;
+  line-height: 192px;
+  letter-spacing: 0.12em;
+  text-align: left;
+}
+
+.vito {
+  margin-left: 330px;
+  width: 636px;
+  height: 848px;
+}
+
+.resume-txt {
+  width: 622px;
+  height: 192px;
+  font-size: 128px;
+  font-weight: 400;
+  line-height: 192px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  margin: 0 0 0 660px;
+}
+
+.resume-desc-area {
+  height: 432px;
+  background-color: #EFEFEF;
+  box-sizing: border-box;
+  /* mt-48 */
+}
+
+.resume-desc-txt {
+  box-sizing: border-box;
+  width: 636px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 660px;
+  word-wrap: break-all;
+  padding-right: 52px;
+}
+
+.card {
+  width: 636px;
+}
+
+.card-title {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #AE0000;
+  border-bottom: 3px solid #AE0000;
+}
+
+.card-sub-title {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #949494;
+}
+
+.card-text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  word-wrap: break-all;
+}
+
+.foot {
+  height: 192px;
+  padding-top: 64px;
+  background-color: #000;
+  box-sizing: border-box;
+}
+
+.icon-area {
+  width: 272px;
+  margin: 0px auto;
+}
+
+.icon-image {
+  width: 64px;
+  height: 64px;
+}
